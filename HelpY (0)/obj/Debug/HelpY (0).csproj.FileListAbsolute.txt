@@ -1,0 +1,11 @@
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\bin\Debug\HelpY (0).exe.config
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\bin\Debug\HelpY (0).exe
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\bin\Debug\HelpY (0).pdb
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\obj\Debug\HelpY (0).csproj.AssemblyReference.cache
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\obj\Debug\HelpY (0).csproj.SuggestedBindingRedirects.cache
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\obj\Debug\HelpY__0_.Form1.resources
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\obj\Debug\HelpY__0_.Properties.Resources.resources
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\obj\Debug\HelpY (0).csproj.GenerateResource.cache
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\obj\Debug\HelpY (0).csproj.CoreCompileInputs.cache
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\obj\Debug\HelpY (0).exe
+C:\Users\samur\source\repos\HelpY (0)\HelpY (0)\obj\Debug\HelpY (0).pdb
