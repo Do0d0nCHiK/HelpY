@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samur\\Desktop\\HelpY\\Test_HelpY\\Test_HelpY.csproj": {}
+    "C:\\Users\\samur\\OneDrive\\Рабочий стол\\HelpY (0)\\Test_HelpY\\Test_HelpY.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samur\\Desktop\\HelpY\\Test_HelpY\\Test_HelpY.csproj": {
+    "C:\\Users\\samur\\OneDrive\\Рабочий стол\\HelpY (0)\\Test_HelpY\\Test_HelpY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samur\\Desktop\\HelpY\\Test_HelpY\\Test_HelpY.csproj",
+        "projectUniqueName": "C:\\Users\\samur\\OneDrive\\Рабочий стол\\HelpY (0)\\Test_HelpY\\Test_HelpY.csproj",
         "projectName": "Test_HelpY",
-        "projectPath": "C:\\Users\\samur\\Desktop\\HelpY\\Test_HelpY\\Test_HelpY.csproj",
+        "projectPath": "C:\\Users\\samur\\OneDrive\\Рабочий стол\\HelpY (0)\\Test_HelpY\\Test_HelpY.csproj",
         "packagesPath": "C:\\Users\\samur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samur\\Desktop\\HelpY\\Test_HelpY\\obj\\",
+        "outputPath": "C:\\Users\\samur\\OneDrive\\Рабочий стол\\HelpY (0)\\Test_HelpY\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
