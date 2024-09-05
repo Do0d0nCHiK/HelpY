@@ -5,14 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_HelpY"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
-    <Grid>
+        Title="MainWindow" Height="1080" Width="1920" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" WindowState="Maximized">
+    <Grid x:Name="MainGrid">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="900"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="200"/>
             <RowDefinition Height="200"/>
@@ -20,6 +22,40 @@
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <ListView x:Name="Test_List" Grid.Row="1" Grid.RowSpan="5" Grid.Column="1" Background="Black" />
+        
+        <Grid x:Name="CenterGrid" Grid.Row="2" Grid.Column="2" Grid.RowSpan="5" Background="Aqua">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="70"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Content="1" Background="Red"/>
+            <Button Content="2" Background="Yellow" Grid.Row="1"/>
+            <Button Content="3" Background="Blue" Grid.Row="2"/>
+            <Button Content="4" Background="Wheat" Grid.Row="3"/>
+        </Grid>
+        <Button x:Name="LeftCalendarButton" Content="Предыдущий месяц" Grid.Column="0" Grid.Row="4"/>
+        <Button x:Name="RightCalendarButton" Content="Следующий месяц" Grid.Column="1" Grid.Row="4"/>
+        <Label Background="Orange" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">
+            <Grid Height="50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="300"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Image" Grid.Column="0" Grid.Row="0"/>
+            </Grid>
+        </Label>
+        <Label Background="Green" Grid.Row="1" Grid.Column="2" Content="Поиск" FontSize="30" Padding="400 0 0 0"/>
+        <Calendar x:Name="Calendar" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
     </Grid>
 </Window>
